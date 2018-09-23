@@ -76,10 +76,10 @@ def card_deal(find_dic):
 
     if action_str == "1":
 
-        find_dic["name"] = input("姓名：")
-        find_dic["phone"] = input("电话：")
-        find_dic["qq"] = input("姓名：")
-        find_dic["email"] = input("邮箱：")
+        find_dic["name"] = input_card_info(find_dic["name"],"姓名：")
+        find_dic["phone"] = input_card_info(find_dic["phone"],"电话：")
+        find_dic["qq"] = input_card_info(find_dic["qq"],"QQ：")
+        find_dic["email"] = input_card_info(find_dic["email"],"邮箱：")
 
         print("修改名片成功！")
 
@@ -88,3 +88,12 @@ def card_deal(find_dic):
         card_list.remove(find_dic)
 
         print("删除名片成功！")
+
+def input_card_info(dict_value, tip_message):
+    """自定义输入"""
+    result_str = input(tip_message)
+
+    if len(result_str) > 0:
+        return result_str
+    else:
+        return dict_value
