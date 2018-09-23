@@ -77,4 +77,5 @@ def card_deal(find_dic):
     if action_str == "1":
         print("修改名片")
     elif action_str == "2":
-        print("删除名片")
+        card_list.remove(find_dic)
+        print("删除名片成功！")
