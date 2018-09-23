@@ -71,6 +71,7 @@ def search_card():
         print("没有找到 %s " % find_name)
 
 def card_deal(find_dic):
+    """处理名片"""
     action_str = input("请选择要执行的操作：" + 
                        "1 修改 2 删除 0 返回上层操作：")
 
@@ -88,6 +89,10 @@ def card_deal(find_dic):
         card_list.remove(find_dic)
 
         print("删除名片成功！")
+
+    else:
+
+        return
 
 def input_card_info(dict_value, tip_message):
     """自定义输入"""
