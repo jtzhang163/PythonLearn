@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7fbc4ffd-3731-49d1-825c-6683a0171d1f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Files\01_HelloWorld.py</StartupFile>
+    <StartupFile>Files\02_roshambo.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Files\01_HelloWorld.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Files\02_roshambo.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonLearn.py" />
