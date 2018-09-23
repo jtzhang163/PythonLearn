@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7fbc4ffd-3731-49d1-825c-6683a0171d1f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonLearn.py</StartupFile>
+    <StartupFile>Files\01_HelloWorld.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Files\01_HelloWorld.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonLearn.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Files\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
