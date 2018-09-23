@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 #记录所有的名片列表
 card_list = []
 
@@ -48,7 +50,7 @@ def show_cards():
     print("=" * 60);
     for card_dic in card_list:
         print("%s\t\t%s\t\t%s\t\t%s\t\t" % (card_dic["name"],card_dic["phone"],card_dic["qq"],card_dic["email"]))
-    print("=" * 60);
+    print("=" * 60)
 
 def search_card():
     """搜索名片"""
