@@ -36,6 +36,11 @@ def show_cards():
     print("-" * 50)
     print("显示所有名片")
 
+    #没有记录直接返回
+    if len(card_list) == 0:
+        print("当前没有任何名片记录！")
+        return
+
     #打印表头
     for name in ["姓名","电话","QQ","邮箱"]:
         print(name,end = "\t\t")
@@ -43,10 +48,24 @@ def show_cards():
     print("=" * 60);
     for card_dic in card_list:
         print("%s\t\t%s\t\t%s\t\t%s\t\t" % (card_dic["name"],card_dic["phone"],card_dic["qq"],card_dic["email"]))
-
+    print("=" * 60);
 
 def search_card():
     """搜索名片"""
     print("-" * 50)
     print("搜索名片")
 
+    find_name = input("请输入要搜索的姓名：")
+
+    for card_dic in card_list:
+        if card_dic["name"] == find_name:
+            print("找到了！")
+            print("姓名\t\t电话\t\tQQ\t\t邮箱\t\t")
+            print("=" * 60);
+            print("%s\t\t%s\t\t%s\t\t%s\t\t" % (card_dic["name"],card_dic["phone"],card_dic["qq"],card_dic["email"]))
+
+            #执行修改和查询
+
+            break
+    else:
+        print("没有找到 %s " % find_name)
