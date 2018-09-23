@@ -75,7 +75,16 @@ def card_deal(find_dic):
                        "1 修改 2 删除 0 返回上层操作：")
 
     if action_str == "1":
-        print("修改名片")
+
+        find_dic["name"] = input("姓名：")
+        find_dic["phone"] = input("电话：")
+        find_dic["qq"] = input("姓名：")
+        find_dic["email"] = input("邮箱：")
+
+        print("修改名片成功！")
+
     elif action_str == "2":
+
         card_list.remove(find_dic)
+
         print("删除名片成功！")
