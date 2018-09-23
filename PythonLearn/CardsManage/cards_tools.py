@@ -1,3 +1,6 @@
+#记录所有的名片列表
+card_list = []
+
 def show_menu():
     """显示菜单"""
     print("*" * 50)
@@ -15,6 +18,19 @@ def new_card():
     print("-" * 50)
     print("新增名片")
 
+    name = input("请输入姓名：")
+    phone = input("请输入电话：")
+    qq = input("请输入QQ：")
+    email = input("请输入邮箱：")
+
+    #名片字典
+    card_dict = {"name":name,
+                 "phone":phone,
+                 "qq":qq,
+                 "email":email}
+    card_list.append(card_dict)
+    print("添加 %s 的名片成功" % name)
+
 def show_cards():
     """显示所有名片"""
     print("-" * 50)
@@ -24,3 +40,4 @@ def search_card():
     """搜索名片"""
     print("-" * 50)
     print("搜索名片")
+
