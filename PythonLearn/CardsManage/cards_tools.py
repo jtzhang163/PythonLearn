@@ -36,6 +36,15 @@ def show_cards():
     print("-" * 50)
     print("显示所有名片")
 
+    #打印表头
+    for name in ["姓名","电话","QQ","邮箱"]:
+        print(name,end = "\t\t")
+    print("");
+    print("=" * 60);
+    for card_dic in card_list:
+        print("%s\t\t%s\t\t%s\t\t%s\t\t" % (card_dic["name"],card_dic["phone"],card_dic["qq"],card_dic["email"]))
+
+
 def search_card():
     """搜索名片"""
     print("-" * 50)
