@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7fbc4ffd-3731-49d1-825c-6683a0171d1f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Files\02_roshambo.py</StartupFile>
+    <StartupFile>CardsManage\cards_main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
