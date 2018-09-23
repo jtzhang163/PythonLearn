@@ -21,16 +21,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CardsManage\cards_main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CardsManage\cards_tools.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Files\01_HelloWorld.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Files\02_roshambo.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PythonLearn.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Files\" />
+    <Folder Include="CardsManage\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
