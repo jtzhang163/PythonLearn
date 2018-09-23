@@ -14,17 +14,15 @@ while True:
 
         #新建名片
         if action_str == "1":
-            pass
+            cards_tools.new_card()
 
         #显示全部
         elif action_str == "2":
-            pass
+            cards_tools.show_cards()
 
         #查询名片
         else:
-            pass
-
-        pass
+            cards_tools.search_card()
 
     #0 退出系统
     elif action_str == "0":
