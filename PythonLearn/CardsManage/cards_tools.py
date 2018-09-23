@@ -64,8 +64,17 @@ def search_card():
             print("=" * 60);
             print("%s\t\t%s\t\t%s\t\t%s\t\t" % (card_dic["name"],card_dic["phone"],card_dic["qq"],card_dic["email"]))
 
-            #执行修改和查询
-
+            #执行修改和删除
+            card_deal(card_dic)
             break
     else:
         print("没有找到 %s " % find_name)
+
+def card_deal(find_dic):
+    action_str = input("请选择要执行的操作：" + 
+                       "1 修改 2 删除 0 返回上层操作：")
+
+    if action_str == "1":
+        print("修改名片")
+    elif action_str == "2":
+        print("删除名片")
