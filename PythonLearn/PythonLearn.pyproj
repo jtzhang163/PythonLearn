@@ -33,6 +33,7 @@
     <Compile Include="Others\02_roshambo.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PlaneWars\zjt_01_pygame_learn.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Others\" />
