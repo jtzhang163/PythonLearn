@@ -27,16 +27,17 @@
     <Compile Include="CardsManage\cards_tools.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Files\01_HelloWorld.py">
+    <Compile Include="Others\01_HelloWorld.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Files\02_roshambo.py">
+    <Compile Include="Others\02_roshambo.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Files\" />
+    <Folder Include="Others\" />
     <Folder Include="CardsManage\" />
+    <Folder Include="PlaneWars\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
