@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonLearn", "PythonLearn\PythonLearn.pyproj", "{7FBC4FFD-3731-49D1-825C-6683A0171D1F}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PlaneWars", "PlaneWars\PlaneWars.pyproj", "{E376ACA7-5ECC-43A1-A7B7-5F24BF13CA76}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CardsManage", "CardsManage\CardsManage.pyproj", "{079D3AD0-A621-4817-BA12-4C0CAC42A2AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7FBC4FFD-3731-49D1-825C-6683A0171D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7FBC4FFD-3731-49D1-825C-6683A0171D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E376ACA7-5ECC-43A1-A7B7-5F24BF13CA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E376ACA7-5ECC-43A1-A7B7-5F24BF13CA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079D3AD0-A621-4817-BA12-4C0CAC42A2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079D3AD0-A621-4817-BA12-4C0CAC42A2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

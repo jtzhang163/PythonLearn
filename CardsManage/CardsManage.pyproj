@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7fbc4ffd-3731-49d1-825c-6683a0171d1f</ProjectGuid>
+    <ProjectGuid>079d3ad0-a621-4817-ba12-4c0cac42a2ae</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>02_roshambo.py</StartupFile>
+    <StartupFile>cards_main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonLearn</Name>
-    <RootNamespace>PythonLearn</RootNamespace>
+    <Name>CardsManage</Name>
+    <RootNamespace>CardsManage</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,8 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="01_HelloWorld.py" />
-    <Compile Include="02_roshambo.py" />
+    <Compile Include="CardsManage.py" />
+    <Compile Include="cards_main.py" />
+    <Compile Include="cards_tools.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

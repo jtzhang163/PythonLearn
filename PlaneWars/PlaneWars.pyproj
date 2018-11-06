@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7fbc4ffd-3731-49d1-825c-6683a0171d1f</ProjectGuid>
+    <ProjectGuid>e376aca7-5ecc-43a1-a7b7-5f24bf13ca76</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>02_roshambo.py</StartupFile>
+    <StartupFile>plane_main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonLearn</Name>
-    <RootNamespace>PythonLearn</RootNamespace>
+    <Name>PlaneWars</Name>
+    <RootNamespace>PlaneWars</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,8 +21,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="01_HelloWorld.py" />
-    <Compile Include="02_roshambo.py" />
+    <Compile Include="PlaneWars.py" />
+    <Compile Include="plane_main.py" />
+    <Compile Include="plane_sprites.py" />
+    <Compile Include="zjt_01_pygame_learn.py" />
+    <Compile Include="zjt_02_pygame_Rect_description_hero.py" />
+    <Compile Include="zjt_03_pygame_create_main_window.py" />
+    <Compile Include="zjt_04_paint_background.py" />
+    <Compile Include="zjt_05_paint_hero_image.py" />
+    <Compile Include="zjt_06_update_method.py" />
+    <Compile Include="zjt_07_learn_game_loop.py" />
+    <Compile Include="zjt_08_update_hero_location.py" />
+    <Compile Include="zjt_09_hero_fly_loop.py" />
+    <Compile Include="zjt_10_event_listen.py" />
+    <Compile Include="zjt_11_listen_quit_event.py" />
+    <Compile Include="zjt_12_test_sprite.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
