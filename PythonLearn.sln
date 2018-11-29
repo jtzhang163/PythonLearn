@@ -9,6 +9,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PlaneWars", "PlaneWars\Plan
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CardsManage", "CardsManage\CardsManage.pyproj", "{079D3AD0-A621-4817-BA12-4C0CAC42A2AE}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Network", "Network\Network.pyproj", "{9A796BD0-5895-4ACC-AE76-272198D4D229}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{E376ACA7-5ECC-43A1-A7B7-5F24BF13CA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{079D3AD0-A621-4817-BA12-4C0CAC42A2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{079D3AD0-A621-4817-BA12-4C0CAC42A2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A796BD0-5895-4ACC-AE76-272198D4D229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A796BD0-5895-4ACC-AE76-272198D4D229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
