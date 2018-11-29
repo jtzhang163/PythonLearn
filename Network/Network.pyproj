@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9a796bd0-5895-4acc-ae76-272198d4d229</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>UdpReceive.py</StartupFile>
+    <StartupFile>UdpSend.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

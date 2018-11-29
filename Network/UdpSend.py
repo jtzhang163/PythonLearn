@@ -4,6 +4,8 @@ def main():
     # 创建了一个UDP套接字
     udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
+    udp_socket.bind(("",8888))  #可以在发送前绑定固定端口
+
     while True:
 
         # 从键盘获取数据
@@ -14,7 +16,7 @@ def main():
             break
 
         # 使用套接字收发数据
-        udp_socket.sendto(send_data.encode("utf-8"),("192.168.146.1",8080))
+        udp_socket.sendto((send_data + "\r\n").encode("gbk"),("192.168.146.1",8080))
 
     # 关闭套接字    
     udp_socket.close()

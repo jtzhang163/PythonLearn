@@ -4,7 +4,7 @@ def main():
 
     udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-    udp_socket.bind(("",7788))
+    udp_socket.bind(("",7788))  #必须绑定本地ip及port
 
     while True:
 
