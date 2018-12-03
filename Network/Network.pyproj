@@ -3,8 +3,9 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9a796bd0-5895-4acc-ae76-272198d4d229</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>UdpSend.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>TCP\TcpServer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +22,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="UdpReceive.py">
+    <Compile Include="TCP\TcpServer.py" />
+    <Compile Include="TCP\TcpClient.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="UdpSend.py" />
+    <Compile Include="UDP\UdpChat.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UDP\UdpReceive.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UDP\UdpSend.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TCP\" />
+    <Folder Include="UDP\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
