@@ -5,7 +5,7 @@
     <ProjectGuid>9a796bd0-5895-4acc-ae76-272198d4d229</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>TCP\TcpServer.py</StartupFile>
+    <StartupFile>TCP\FileDownloadClient.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="TCP\FileDownloadClient.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TCP\TcpServer.py" />
     <Compile Include="TCP\TcpClient.py">
       <SubType>Code</SubType>
