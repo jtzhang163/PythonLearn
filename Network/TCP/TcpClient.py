@@ -1,7 +1,6 @@
 import socket
 
 def main():
-    
     tcp_client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     server_ip = input("服务器IP：")
