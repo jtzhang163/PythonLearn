@@ -5,7 +5,7 @@
     <ProjectGuid>9a796bd0-5895-4acc-ae76-272198d4d229</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>TCP\FileDownloadClient.py</StartupFile>
+    <StartupFile>TCP\FileDownloadServer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,7 @@
     <Compile Include="TCP\FileDownloadClient.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="TCP\FileDownloadServer.py" />
     <Compile Include="TCP\TcpServer.py" />
     <Compile Include="TCP\TcpClient.py">
       <SubType>Code</SubType>

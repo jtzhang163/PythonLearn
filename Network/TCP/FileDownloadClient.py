@@ -14,8 +14,9 @@ def main():
 
     recv_data = tcp_socket.recv(1024)  # 1k大小
 
-    with open("[附件]"+ file_name, "wb") as f:  # 
-        f.write(recv_data)
+    if recv_data:
+        with open("[附件]"+ file_name, "wb") as f:  # 
+            f.write(recv_data)
 
 
 if __name__ == "__main__":
