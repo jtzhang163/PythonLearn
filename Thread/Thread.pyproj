@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f8c0a392-190e-4d89-a736-b119a00374dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Thread.py</StartupFile>
+    <StartupFile>ShareData.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ShareData.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Thread.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
