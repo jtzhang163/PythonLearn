@@ -8,26 +8,30 @@ g_num = 0
 def test1(num):
     global g_num
 
-    mutex.acquire()
+    # mutex.acquire()
 
     for i in range(num):
+        mutex.acquire()
         g_num += 1
+        mutex.release()
 
     print("------in test1 g_num = %d----" % g_num)
     
-    mutex.release()
+    # mutex.release()
 
 def test2(num):
     global g_num
 
-    mutex.acquire()
+    # mutex.acquire()
 
     for i in range(num):
+        mutex.acquire()
         g_num += 1
+        mutex.release()
 
     print("------in test2 g_num = %d----" % g_num)
 
-    mutex.release()
+    # mutex.release()
 
 mutex = threading.Lock()  # 创建一个互斥锁
 
