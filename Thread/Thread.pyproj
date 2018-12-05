@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f8c0a392-190e-4d89-a736-b119a00374dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Competition4Resources.py</StartupFile>
+    <StartupFile>Multiprocess.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Competition4Resources.py" />
+    <Compile Include="Multiprocess.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ShareData.py">
       <SubType>Code</SubType>
     </Compile>
