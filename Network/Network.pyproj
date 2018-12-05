@@ -5,7 +5,7 @@
     <ProjectGuid>9a796bd0-5895-4acc-ae76-272198d4d229</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>TCP\FileDownloadServer.py</StartupFile>
+    <StartupFile>UDP\MutiTaskUdpChat.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,6 +30,7 @@
     <Compile Include="TCP\TcpClient.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="UDP\MutiTaskUdpChat.py" />
     <Compile Include="UDP\UdpChat.py">
       <SubType>Code</SubType>
     </Compile>
