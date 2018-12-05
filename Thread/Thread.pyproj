@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f8c0a392-190e-4d89-a736-b119a00374dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ShareData.py</StartupFile>
+    <StartupFile>Competition4Resources.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Competition4Resources.py" />
     <Compile Include="ShareData.py">
       <SubType>Code</SubType>
     </Compile>
