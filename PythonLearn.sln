@@ -11,7 +11,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CardsManage", "CardsManage\
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Network", "Network\Network.pyproj", "{9A796BD0-5895-4ACC-AE76-272198D4D229}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Thread", "Thread\Thread.pyproj", "{F8C0A392-190E-4D89-A736-B119A00374DC}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MultiTask", "Thread\MultiTask.pyproj", "{F8C0A392-190E-4D89-A736-B119A00374DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
