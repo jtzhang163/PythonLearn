@@ -5,7 +5,7 @@
     <ProjectGuid>f8c0a392-190e-4d89-a736-b119a00374dc</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>进程\Multiprocess.py</StartupFile>
+    <StartupFile>进程\ProcessPool.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="线程\Competition4Resources.py" />
+    <Compile Include="进程\Communicate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="进程\CopyDirectory.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="进程\Multiprocess.py">
       <SubType>Code</SubType>
     </Compile>
@@ -30,6 +36,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="线程\Thread.py" />
+    <Compile Include="进程\ProcessPool.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="进程\" />
