@@ -1,5 +1,7 @@
+import time
 from collections import Iterable
 from collections import Iterator
+
 
 class Classmate(object):
     def __init__(self):
@@ -12,13 +14,23 @@ class Classmate(object):
         """如果要可迭代(可以使用for)，必须实现__iter__方法"""
 
         # 返回值必须为实现了__iter__和__next__方法的类对象
-        return ClassIterator()
+        return ClassIterator(self)
 
 class ClassIterator(object):
+    def __init__(self, obj):
+        self.obj = obj
+        self.index = 0
+
     def __iter__(self):
         pass
+
     def __next__(self):
-        return 11
+        if self.index < len(self.obj.names):
+            name = self.obj.names[self.index]
+            self.index += 1
+            return name
+        else:
+            raise StopIteration
 
 classmate = Classmate()
 classmate.add("wang")
@@ -34,3 +46,4 @@ classmate.add("zhang")
 #print(classmate_next)
 for name in classmate:
     print(name)
+    time.sleep(1)
