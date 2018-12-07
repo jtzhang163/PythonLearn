@@ -5,7 +5,7 @@
     <ProjectGuid>f8c0a392-190e-4d89-a736-b119a00374dc</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>进程\ProcessPool.py</StartupFile>
+    <StartupFile>协程\Iterator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="协程\Iterator.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="线程\Competition4Resources.py" />
     <Compile Include="进程\Communicate.py">
       <SubType>Code</SubType>
@@ -41,6 +44,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="协程\" />
     <Folder Include="进程\" />
     <Folder Include="线程\" />
   </ItemGroup>
