@@ -6,6 +6,7 @@ from collections import Iterator
 class Classmate(object):
     def __init__(self):
         self.names = list()
+        self.index = 0
 
     def add(self, name):
         self.names.append(name)
@@ -14,19 +15,11 @@ class Classmate(object):
         """如果要可迭代(可以使用for)，必须实现__iter__方法"""
 
         # 返回值必须为实现了__iter__和__next__方法的类对象
-        return ClassIterator(self)
-
-class ClassIterator(object):
-    def __init__(self, obj):
-        self.obj = obj
-        self.index = 0
-
-    def __iter__(self):
-        pass
+        return self
 
     def __next__(self):
-        if self.index < len(self.obj.names):
-            name = self.obj.names[self.index]
+        if self.index < len(self.names):
+            name = self.names[self.index]
             self.index += 1
             return name
         else:
