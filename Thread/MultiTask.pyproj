@@ -5,7 +5,7 @@
     <ProjectGuid>f8c0a392-190e-4d89-a736-b119a00374dc</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>协程\Coroutine_3.py</StartupFile>
+    <StartupFile>协程\gevent_images_downloader.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -35,6 +35,9 @@
     <Compile Include="协程\Generator_4.py" />
     <Compile Include="协程\Generator_3.py" />
     <Compile Include="协程\Generator_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="协程\gevent_images_downloader.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="协程\Iterator.py">
