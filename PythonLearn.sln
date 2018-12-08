@@ -13,6 +13,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Network", "Network\Network.
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MultiTask", "Thread\MultiTask.pyproj", "{F8C0A392-190E-4D89-A736-B119A00374DC}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WebServer", "WebServer\WebServer.pyproj", "{61798408-7A0E-4130-ADB1-448929B54B24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,8 @@ Global
 		{9A796BD0-5895-4ACC-AE76-272198D4D229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C0A392-190E-4D89-A736-B119A00374DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8C0A392-190E-4D89-A736-B119A00374DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61798408-7A0E-4130-ADB1-448929B54B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61798408-7A0E-4130-ADB1-448929B54B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
