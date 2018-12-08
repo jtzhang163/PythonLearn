@@ -5,7 +5,7 @@
     <ProjectGuid>f8c0a392-190e-4d89-a736-b119a00374dc</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>协程\Iterator.py</StartupFile>
+    <StartupFile>协程\Coroutine.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="协程\Coroutine.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="协程\Fibonacci_2.py" />
+    <Compile Include="协程\Fibonacci_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="协程\Generator_1.py" />
+    <Compile Include="协程\Generator_4.py" />
+    <Compile Include="协程\Generator_3.py" />
+    <Compile Include="协程\Generator_2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="协程\Iterator.py">
       <SubType>Code</SubType>
     </Compile>
