@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>61798408-7a0e-4130-adb1-448929b54b24</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RegularExpression\re_start.py</StartupFile>
+    <StartupFile>RegularExpression\multi_word.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="RegularExpression\re_start.py" />
+    <Compile Include="RegularExpression\match_group.py" />
+    <Compile Include="RegularExpression\start_end.py" />
+    <Compile Include="RegularExpression\multi_word.py" />
+    <Compile Include="RegularExpression\single_word.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RegularExpression\" />

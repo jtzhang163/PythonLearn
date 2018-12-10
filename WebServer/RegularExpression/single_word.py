@@ -1,12 +1,4 @@
-# \d 和 []
-
 import re
-
-re.match(r"hello","hello world")
-
-ret = re.match(r"权利的游戏\d","权利的游戏10-凛冬将至")
-
-print(ret.group())  # "权利的游戏1"
 
 re.match(r"权利的游戏[123456]","权利的游戏8").group()
 
