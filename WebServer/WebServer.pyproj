@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="RegularExpression\re_advance.py" />
     <Compile Include="RegularExpression\match_group.py" />
     <Compile Include="RegularExpression\start_end.py" />
     <Compile Include="RegularExpression\multi_word.py" />
