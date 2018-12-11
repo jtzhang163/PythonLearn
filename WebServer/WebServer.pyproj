@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>61798408-7a0e-4130-adb1-448929b54b24</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Http\DynamicWebServer.py</StartupFile>
+    <StartupFile>WebServer\DynamicWebServer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Http\DynamicWebServer.py" />
-    <Compile Include="Http\StaticWebServer.py">
+    <Compile Include="WebServer\DynamicWebServer.py" />
+    <Compile Include="WebServer\StaticWebServer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="RegularExpression\re_advance.py" />
@@ -32,7 +32,7 @@
     <Compile Include="RegularExpression\single_word.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Http\" />
+    <Folder Include="WebServer\" />
     <Folder Include="RegularExpression\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
