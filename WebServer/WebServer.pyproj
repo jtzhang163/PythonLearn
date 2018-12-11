@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>61798408-7a0e-4130-adb1-448929b54b24</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Http\StaticWebServer.py</StartupFile>
+    <StartupFile>Http\DynamicWebServer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Http\DynamicWebServer.py" />
     <Compile Include="Http\StaticWebServer.py">
       <SubType>Code</SubType>
     </Compile>
