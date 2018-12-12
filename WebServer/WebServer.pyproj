@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>61798408-7a0e-4130-adb1-448929b54b24</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SimpleWebServer\DynamicWebServer.py</StartupFile>
+    <StartupFile>ConcurrentWebServer\CoroutineServer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ConcurrentWebServer\CoroutineServer.py" />
+    <Compile Include="ConcurrentWebServer\MultiThreadServer.py" />
+    <Compile Include="ConcurrentWebServer\MultiProcessServer.py" />
     <Compile Include="SimpleWebServer\DynamicWebServer.py" />
     <Compile Include="SimpleWebServer\StaticWebServer.py">
       <SubType>Code</SubType>
