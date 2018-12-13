@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>61798408-7a0e-4130-adb1-448929b54b24</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ConcurrentWebServer\P05_LongConnectionServer.py</StartupFile>
+    <StartupFile>ConcurrentWebServer\P06_epoll.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,7 @@
     <Compile Include="ConcurrentWebServer\P03_CoroutineServer.py" />
     <Compile Include="ConcurrentWebServer\P02_MultiThreadServer.py" />
     <Compile Include="ConcurrentWebServer\P01_MultiProcessServer.py" />
+    <Compile Include="ConcurrentWebServer\P06_epoll.py" />
     <Compile Include="ConcurrentWebServer\P05_LongConnectionServer.py" />
     <Compile Include="ConcurrentWebServer\P04_NonBlockingServer.py">
       <SubType>Code</SubType>
